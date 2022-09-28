@@ -1,2 +1,2 @@
-# 1°D    
-Nome: Daniel      N°:03
+# 1ªD    
+Nome: Daniel      Nº:03
