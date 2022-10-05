@@ -16,3 +16,27 @@ function escreva(){
 
     
 }
+function repete(){
+ for(let i = 1; i <= 10; i++){
+   document.write("tabuada do " + i + "</br>"); 
+     for(let j=1; j <= 10; j++){
+      document.write(i + " X " + j + "=" + (j*i) + "</br>" );
+      }
+   document.write("</br>"); 
+ }
+ } 
+
+let lista = ["Banana","Uva","Abacate","Tomate"]; 
+function minhaLista(){
+ document.write(lista[1]) 
+}
+
+
+
+
+
+
+
+
+
+
