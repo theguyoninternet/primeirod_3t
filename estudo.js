@@ -1,4 +1,5 @@
 
+
 function moeda(atual){
 return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 }
@@ -30,16 +31,23 @@ function total(){
     document.getElementById("meses").value = "";
     document.getElementById("meses").focus();
     return;
-   }
+   
   }
+  let mes = "";
 
   for(let i = 1; i <= t; i++){
       r = c * (1 + (j/100));
-      document.write("Mês " + i + " valor: " + moeda(r) +"<br>");
-      c = moeda(r);
+     mes += "mês" = i =" valor "+ moeda(r) + "<br>";
+      //  document.write("Mês " + i + " valor: " + moeda(r) +"<br>");
+      c = r;
   }
-  document.write("Resultado: " + moeda(r));
+  document.getElementById("total").innerHTML= "Total: " + moeda(r);
+  // document.write("Resultado: " + moeda(r));
 
+  for(let i = 1; i <= t; i++){
+    r = c * (1 + (j/100));
+ 
+   
+};
   
-
-
+}
