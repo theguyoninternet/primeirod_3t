@@ -19,3 +19,17 @@ padding: 10px;
 border-radius: 10px;
 margin-bottom:10px;
 }
+
+#calculadora button{
+background: chocolate;
+color: gray;
+padding: 5px
+border-radius: 5px; 
+margin-top: 10px;
+}
+#calculadora button:hover{
+background: white;
+color: black;
+cursor: pointer;
+
+}
