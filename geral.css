@@ -2,7 +2,20 @@
  background: green
  width: 200px;
  padding: 10px;
+  text-align: center;
+  border-radius: 10px
+}
+#calculadora input{
+ background: black;
+ color: white;
+ padding: 5px;
+ border-radius: 5px;
+}
 
-
-
+#sptotal {
+background: black;
+color: lime;
+padding: 10px;
+border-radius: 10px;
+margin-bottom:10px;
 }
