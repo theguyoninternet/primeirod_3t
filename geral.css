@@ -55,6 +55,7 @@
 
  }
 
+
  #input-calcF{
     display: none;
 
@@ -92,4 +93,14 @@
     background: rgb(236, 222, 212);
     color: rgb(0, 0, 0);
     cursor: pointer;
+}
+.calcES{
+    display: none;
+}
+
+#input-calcEqSG{
+   display: none;
+}
+#input-calcEqSG:checked + #calculadoraESC .calcES {
+   display:block;
 }
